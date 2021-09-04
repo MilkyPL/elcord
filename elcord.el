@@ -164,7 +164,7 @@ Swap this with your own function if you want a custom buffer-details message."
                  (const :tag "Emacs (Material)" "emacs_material_icon")
                  (const :tag "Emacs (Legacy)" "emacs_legacy_icon")
                  (const :tag "Spacemacs" "spacemacs_icon")
-                 (const :tag "Doom" "doom_icon"))
+                 (const :tag "Doom" "wi-symbol"))
   :group 'elcord)
 
 (defcustom elcord-boring-buffers-regexp-list '("^ "
@@ -192,7 +192,7 @@ When visiting a boring buffer, it will not show in the elcord presence."
 (defvar elcord--editor-name
   (cond
    ((boundp 'spacemacs-version) "Spacemacs")
-   ((boundp 'doom-version) "DOOM Emacs")
+   ((boundp 'doom-version) "Wi")
    (t "Emacs"))
   "The name to use to represent the current editor.")
 
@@ -421,7 +421,7 @@ otherwise if it is a function, call it with `mode' and return that value."
   (cond
    ((progn elcord-editor-icon) elcord-editor-icon)
    ((boundp 'spacemacs-version) "spacemacs_icon")
-   ((boundp 'doom-version) "doom_icon")
+   ((boundp 'doom-version) "wi-symbol")
    (t "emacs_icon")))
 
 (defun elcord--mode-icon ()
