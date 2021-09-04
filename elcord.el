@@ -5,9 +5,9 @@
 ;; Author: heatingdevice
 ;;      Wilfredo Velázquez-Rodríguez <zulu.inuoe@gmail.com>
 ;; Created: 21 Nov 2017
-;; Version: 1.1.0
+;; Version: 1.1.1
 ;; Keywords: games
-;; Homepage: https://github.com/Mstrodl/elcord
+;; Homepage: https://github.com/MilkyPL/elcord
 ;; Package-Requires: ((emacs "25.1"))
 ;; License: MIT
 
