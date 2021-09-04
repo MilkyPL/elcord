@@ -5,7 +5,7 @@
 ;; Author: heatingdevice
 ;;      Wilfredo Velázquez-Rodríguez <zulu.inuoe@gmail.com>
 ;; Created: 21 Nov 2017
-;; Version: 1.1.1
+;; Version: 1.1.2
 ;; Keywords: games
 ;; Homepage: https://github.com/MilkyPL/elcord
 ;; Package-Requires: ((emacs "25.1"))
@@ -35,10 +35,10 @@
   :prefix "elcord-"
   :group 'external)
 
-(defcustom elcord-client-id '"388338871475240965"
+(defcustom elcord-client-id '"883834282035011624"
   "ID of elcord client (Application ID).
 See <https://discordapp.com/developers/applications/me>."
-  :type '(choice (const :tag "'Native' Application ID" "388338871475240965")
+  :type '(choice (const :tag "'Native' Application ID" "883834282035011624")
                  (string :tag "Use the specified ID")
                  (function :tag "Call the function with no args to get the ID."))
   :group 'elcord)
